@@ -42,6 +42,7 @@ namespace NewLessons1
                         if (userPlaseAmount<0)
                         {
                             Console.WriteLine("Неверное количество мест.");
+                            Console.WriteLine("Введите новые данные");
                             break;
                         }
                         if (sectors[userSector] < userPlaseAmount || userPlaseAmount<0)
