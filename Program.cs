@@ -52,6 +52,8 @@ namespace NewLessons1
                             break;
                         }
                         sectors[userSector] -= userPlaseAmount;
+                        Console.WriteLine("Бронирование успешно");
+                        Console.WriteLine($"В секторе N: {userSector+1} осталось мест: {sectors[userSector]} ");
                         break;
                     case 2:
                         isOpen = false;
